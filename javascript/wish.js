@@ -68,14 +68,14 @@ function birthdayWisher() {
                   console.log(differ)
                   convertTime = Math.ceil(differ/(3600*1000*24));
 
-                  if (convertTime <= 10) {
+                  if (convertTime == 1) { document.getElementById("output1").
+                        innerText = `Only ${convertTime}
+                         day is left for your birthday!` }
+                        else if (convertTime <= 10) {
                             document.getElementById("output1").
                             innerText = `Only ${convertTime}
                              days are left for your birthday!`
                         }
-                        else if (convertTime == 1) { document.getElementById("output1").
-                        innerText = `Only ${convertTime}
-                         day is left for your birthday!` }
                         else {
                             document.getElementById("output1").
                             innerText = `${convertTime}
