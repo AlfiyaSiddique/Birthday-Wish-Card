@@ -52,7 +52,7 @@ function birthdayWisher() {
                     }
                     else if (convertTime <= 10) { document.getElementById("output1").
                     innerText = `Only ${convertTime}
-                     days is left for your birthday!` }
+                     days are left for your birthday!` }
                     else {
                         document.getElementById("output1").
                         innerText = `${convertTime}
@@ -91,34 +91,3 @@ function birthdayWisher() {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
